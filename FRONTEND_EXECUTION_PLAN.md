@@ -1,13 +1,13 @@
-# Meem Academia Frontend Restoration & Expansion Plan
+# Meem Tarbiya Frontend Restoration & Expansion Plan
 
 **Status:** Research and planning only — implementation will begin only after approval (“Go”).  
 **Prepared:** 5 September 2026
 
 ## 1. Executive objective
 
-Create a presentation-ready, production-quality frontend that faithfully restores every meaningful piece of public information available on the existing Meem Academia/Tarbiyah Online website, while improving its information architecture, accessibility, navigation, responsiveness, and conversion flow.
+Create a presentation-ready, production-quality frontend that faithfully restores every meaningful piece of public information available on the existing Meem Tarbiya/Meem Tarbiya website, while improving its information architecture, accessibility, navigation, responsiveness, and conversion flow.
 
-The result should feel like the website Meem Academia is *supposed* to have: spiritually grounded, academically credible, operationally clear, and easy for students, parents, instructors, sponsors, and partners to use.
+The result should feel like the website Meem Tarbiya is *supposed* to have: spiritually grounded, academically credible, operationally clear, and easy for students, parents, instructors, sponsors, and partners to use.
 
 ## 2. Research completed
 
@@ -31,7 +31,7 @@ The result should feel like the website Meem Academia is *supposed* to have: spi
 5. The original blog API contains six published records. Five are meaningful articles; one appears to be accidental test content.
 6. Several original footer items are dead links or point back to the homepage: FAQs, Learning Resources, Jobs, LinkedIn, and Twitter.
 7. Several labels and descriptions are inconsistent or mistakenly reused (for example, STEM copy on Islamiat and Urdu cards).
-8. Branding alternates between Meem Academia, Meem Academy, Meem School, and Tarbiyah Online.
+8. Branding alternates between Meem Tarbiya, Meem Academy, Meem Academy, and Meem Tarbiya.
 9. The public flow also contains account and transaction-related screens: login, registration, forgot password, OTP verification, checkout, enrollment, wishlist, invoices, bank payment, promo code, and meetings.
 10. The strongest and most consistent organizational idea is **Tarbiyah**: knowledge should transform character, reconnect learners with Divine guidance, build relevant skills, and produce beneficial influence in families and society.
 
@@ -39,7 +39,7 @@ The result should feel like the website Meem Academia is *supposed* to have: spi
 
 ### Core purpose
 
-Meem Academia is not simply a course marketplace. It presents itself as a holistic learning organization that combines:
+Meem Tarbiya is not simply a course marketplace. It presents itself as a holistic learning organization that combines:
 
 - Divine guidance and Quranic understanding
 - Prophetic character and Seerah
@@ -67,9 +67,9 @@ Meem Academia is not simply a course marketplace. It presents itself as a holist
 
 ### Brand architecture to clarify
 
-- **Meem Academia** — master digital learning brand
-- **Tarbiyah Online** — philosophy and/or Islamic development pathway
-- **Meem School** — related school/campus identity, explained rather than mixed invisibly
+- **Meem Tarbiya** — master digital learning brand
+- **Meem Tarbiya** — philosophy and/or Islamic development pathway
+- **Meem Academy** — related school/campus identity, explained rather than mixed invisibly
 
 A dedicated “Our Ecosystem” section/page should explain this relationship clearly.
 
@@ -109,7 +109,7 @@ This is a strong foundation, but it is not yet the final “nothing is missing�
   - Professional Academic Counseling — Sir Rizwan
 - Mission, vision, philosophy, craft, and influence content should be expanded into structured detail pages rather than only homepage blocks.
 - Contact information needs one authoritative, consistent set of official numbers and email addresses, while department-specific numbers remain clearly labeled.
-- Legal text should retain the full meaning of the source while correcting legacy “Source Code Academia” references only where approved.
+- Legal text should retain the full meaning of the source while correcting legacy “Source Code Tarbiya” references only where approved.
 
 ### B. Information architecture gaps
 
@@ -118,7 +118,7 @@ The following useful pages should be added even where the original site has only
 1. Our Philosophy
 2. Our Teaching Method / The Craft
 3. Our Impact / The Influence
-4. Our Ecosystem (Meem Academia, Tarbiyah Online, Meem School)
+4. Our Ecosystem (Meem Tarbiya, Meem Tarbiya, Meem Academy)
 5. Islamic Studies pathway
 6. Quran pathway
 7. Arabic pathway
@@ -387,7 +387,7 @@ The frontend will be considered complete when:
 
 These do not block frontend implementation, but should be verified before a final production launch:
 
-- Official master brand name and relationship between Meem Academia, Meem Academy, Meem School, and Tarbiyah Online
+- Official master brand name and relationship between Meem Tarbiya, Meem Academy, Meem Academy, and Meem Tarbiya
 - Authoritative general, admissions, accounts, and WhatsApp numbers
 - Correct official email address
 - Whether “Nimra tester” is a real category or test data
