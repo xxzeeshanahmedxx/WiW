@@ -1,3 +1,7 @@
+/* Unified one-line brand wordmark */
+.brand .brand-name,.auth-logo .brand-name{display:inline;white-space:nowrap;font-family:'Cinzel Decorative',Georgia,serif;font-size:15px;font-weight:700;line-height:1;letter-spacing:.015em}.brand.light .brand-name{color:#fff}.auth-logo .brand-name{font-size:14px}
+@media(max-width:600px){.brand .brand-name{font-size:12px}}
+
 /* Blog cover branding */
 .blog-image .blog-logo,.article-cover-wrap .blog-logo{position:absolute;z-index:2;top:14px;left:14px;width:48px;height:48px;object-fit:contain;filter:drop-shadow(0 3px 8px rgba(20,42,37,.16))}.blog-image .blog-cover-img{width:100%;height:100%;object-fit:cover;transition:.5s}.blog-card:hover .blog-image .blog-logo{transform:none}.article-cover-wrap{position:relative}.article-cover-wrap .article-cover{display:block}.article-cover-wrap .blog-logo{width:58px;height:58px;top:18px;left:18px}
 @media(max-width:600px){.blog-image .blog-logo{width:40px;height:40px;top:10px;left:10px}.article-cover-wrap .blog-logo{width:46px;height:46px;top:12px;left:12px}}
