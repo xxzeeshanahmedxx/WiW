@@ -1,3 +1,11 @@
+/* Full-width homepage course carousel panels */
+.course-carousels{width:100vw;margin-left:calc(50% - 50vw)}.course-carousels .carousel-group{width:100%;border-left:0;border-right:0;border-radius:0;padding:30px clamp(22px,4vw,76px)}.course-carousels .carousel-heading,.course-carousels .carousel-track{width:100%}.course-carousels .carousel-slide{flex:0 0 360px}
+@media(max-width:900px){.course-carousels .carousel-slide{flex-basis:42%}}
+@media(max-width:600px){.course-carousels .carousel-group{padding:18px 17px}.course-carousels .carousel-slide{flex-basis:86%}}
+
+/* Display the sponsorship photograph directly, without a decorative shape */
+.sponsor-art{height:auto!important;background:transparent;border-radius:0;display:block;overflow:visible}.sponsor-art img{display:block;width:100%;height:auto;object-fit:contain;object-position:center;border-radius:0}
+
 /* Stable desktop contact form */
 .contact-grid{grid-template-columns:minmax(0,1fr) minmax(420px,1fr);align-items:start}.contact-grid>*{min-width:0}.contact-form{width:100%;min-width:0}.contact-form .form-row{grid-template-columns:repeat(2,minmax(0,1fr));min-width:0}.contact-form label,.contact-form input,.contact-form select,.contact-form textarea{width:100%;min-width:0;max-width:100%}.contact-form textarea{resize:vertical}.contact-form .btn{width:100%}
 @media(max-width:1000px){.contact-grid{grid-template-columns:1fr}.contact-form .form-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
