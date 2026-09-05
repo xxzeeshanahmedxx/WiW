@@ -17,33 +17,33 @@ import homeHeroMobile from './assets/home-hero-mobile.webp';
 import hero from './assets/hero.jpg';
 import aboutImage from './assets/about.webp';
 import teach from './assets/teach.jpg';
-import seerah from './assets/seerah.jpg';
-import nazra from './assets/nazra.jpg';
-import arabic from './assets/arabic.jpg';
-import sqa from './assets/sqa.jpg';
-import data from './assets/data.jpg';
-import kids from './assets/kids.jpg';
+import seerah from './assets/course-223.webp';
+import nazra from './assets/course-221.webp';
+import arabic from './assets/course-208.webp';
+import sqa from './assets/course-292.webp';
+import data from './assets/course-291.webp';
+import kids from './assets/course-224.webp';
 import facultyMale from './assets/faculty-male.webp';
 import facultyFemale from './assets/faculty-female.webp';
 import sponsor from './assets/sponsor.webp';
-import seerat from './assets/seerat.jpg';
-import islamiat from './assets/islamiat.jpg';
-import urdu from './assets/urdu.jpg';
+import seerat from './assets/course-226.webp';
+import islamiat from './assets/course-219.webp';
+import urdu from './assets/course-218.webp';
 import blogHeader from './assets/blog-header.jpg';
 import blogTarbiyah from './assets/blog-tarbiyah.jpg';
 import blogArabic from './assets/blog-arabic.jpg';
 import blogSeerah from './assets/blog-seerah.jpg';
 import blogLife from './assets/blog-lifeskills.jpg';
 import blogCases from './assets/blog-cases.jpg';
-import biology from './assets/course-217.jpg';
-import chemistry from './assets/course-216.jpg';
-import physics from './assets/course-215.jpg';
-import mathematics from './assets/course-214.jpg';
-import englishCourse from './assets/course-213.jpg';
-import seerahYouth from './assets/course-212.jpg';
-import arabicFoundation from './assets/course-207.jpg';
-import arabicYoung from './assets/course-204.jpg';
-import tafseer from './assets/course-200.jpg';
+import biology from './assets/course-217.webp';
+import chemistry from './assets/course-216.webp';
+import physics from './assets/course-215.webp';
+import mathematics from './assets/course-214.webp';
+import englishCourse from './assets/course-213.webp';
+import seerahYouth from './assets/course-212.webp';
+import arabicFoundation from './assets/course-207.webp';
+import arabicYoung from './assets/course-204.webp';
+import tafseer from './assets/course-200.webp';
 
 const courses = [
  {id:'223', title:'Seerah & Case Studies', age:'Ages 15–23', category:'Islamic Studies', level:'Advanced', duration:'1 year', lesson:'60 min', language:'English', price:'5,999', groupPrice:'25,000', image:seerah, featured:true, open:true, sessions:'208 lectures · 104 Makki + 104 Madani', books:['Muhammad by Martin Lings','The Sealed Nectar by Safi-ur-Rahman al-Mubarakpuri','In the Footsteps of the Prophet by Tariq Ramadan','Ash-Shifa by Qadi Iyad','Shama’il Tirmidhi','Purification of the Heart by Hamza Yusuf'], schedule:['Tuesday · 5:30 p.m.–7:30 p.m. / 10:00 a.m.–11:00 a.m.','Wednesday · 5:30 p.m.–7:30 p.m. / 10:00 a.m.–11:00 a.m.'], description:'A reflective, thematic study of the life of the Prophet ﷺ that connects divine guidance with leadership, character and everyday choices.', overview:'A mission-oriented study nurturing deep love for the Prophet Muhammad ﷺ while linking the events of Seerah with divine guidance, leadership methodology and transformative reform.', modules:['Introduction, definition and objectives of learning Seerah','Arabia before Islam: political, social and religious conditions','Birth, lineage, early life and the beginning of revelation','Private and public Da‘wah, opposition and early persecution','The boycott, Year of Sorrow, Ta’if, Isra and Mi‘raj','Hijrah, brotherhood and the Constitution of Madinah','Badr, Uhud, Khandaq and lessons in leadership','Hudaybiyyah, Conquest of Makkah and Farewell Hajj','Case studies, reflection and contemporary application']},
@@ -141,7 +141,27 @@ function Footer(){return <footer><div className="container footer-grid"><div cla
 
 function SectionHead({eyebrow,title,text,center=false}){return <div className={'section-head '+(center?'center':'')}><span className="eyebrow">{eyebrow}</span><h2>{title}</h2>{text&&<p>{text}</p>}</div>}
 function displayCategory(name){return name}
-function CourseVisual({course}){const tone=course.category.toLowerCase().replaceAll(' ','-');return <div className={'course-visual '+tone}></div>}
+const courseImageAlt={
+ '223':'Seerah and Case Studies cover with a teal book and compass beside a winding desert path',
+ '221':'Nazra Quran Majeed cover with a closed teal Quran resting on a wooden rehal',
+ '208':'Arabic for Professionals cover with teal notebooks, a tablet and a gold-accented pen',
+ '292':'Software Quality Assurance cover with a magnifying glass inspecting a checked workflow',
+ '291':'Data Science Foundations cover with analytical charts and a tablet',
+ '224':'Tarbiyah for Kids cover with books, learning blocks, a plant and a habit card',
+ '226':'Seerat un Nabi cover with a teal book and compass among sunlit desert dunes',
+ '219':'Islamiat cover with notebooks, learning cards and a plant beneath an arch outline',
+ '218':'Urdu course cover with an open notebook, books and flowing blue forms',
+ '217':'Biology cover with a microscope, leaves and a cell illustration in an open notebook',
+ '216':'Chemistry cover with laboratory glassware containing blue liquids and a molecular pattern',
+ '215':'Physics cover with a prism, pendulum, wave lines and measuring tools',
+ '214':'Mathematics cover with geometric solids, graph paper, a ruler and compass',
+ '213':'English Language cover with an open notebook, books, pencil and conversation outlines',
+ '212':'Youth Seerah and Case Studies cover with branching paths, a compass and book in a desert landscape',
+ '207':'Arabic Foundation Course cover with progressive teal blocks, learning cards and a notebook',
+ '204':'Arabic for Young Minds cover with geometric learning tiles, an open notebook and a plant',
+ '200':'Quranic Tafseer cover with a closed teal Quran on a wooden rehal and crystalline forms'
+};
+function CourseVisual({course}){const tone=course.category.toLowerCase().replaceAll(' ','-');return <div className={'course-visual '+tone}><img src={course.image} alt={courseImageAlt[course.id]} loading="lazy" decoding="async"/></div>}
 function CourseCard({course,compact=false}){return <article className={'course-card '+(compact?'compact-course-card':'')}><Link to={'/course-details/'+course.id} className="course-img"><CourseVisual course={course}/></Link><div className="course-body">{compact?<div className={'status-text '+(course.open?'open':'closed')}>{course.open?'Open':'Closed'}</div>:<div className="card-kicker"><span className="category">{displayCategory(course.category)}</span><span className={'status-text '+(course.open?'open':'closed')}>{course.open?'Open':'Closed'}</span></div>}<Link to={'/course-details/'+course.id}><h3>{course.title}</h3></Link>{course.age&&<div className="age-label">{course.age}</div>}{!compact&&<p>{course.description}</p>}<div className="course-meta">{!compact&&<><span>{course.level}</span><span><Clock/> {course.lesson}</span></>}<span><BookOpen/> {course.duration}</span><span><Globe2/> {course.language}</span></div><div className="course-foot"><div><small>Monthly from</small><strong><Money value={course.price}/></strong></div><Link to={'/course-details/'+course.id} className="card-action">{course.open?'View course':'View details'} <ArrowRight/></Link></div></div></article>}
 
 function CourseCarousel(){const groups=[
