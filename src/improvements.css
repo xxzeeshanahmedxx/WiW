@@ -1,3 +1,8 @@
+/* Stable desktop contact form */
+.contact-grid{grid-template-columns:minmax(0,1fr) minmax(420px,1fr);align-items:start}.contact-grid>*{min-width:0}.contact-form{width:100%;min-width:0}.contact-form .form-row{grid-template-columns:repeat(2,minmax(0,1fr));min-width:0}.contact-form label,.contact-form input,.contact-form select,.contact-form textarea{width:100%;min-width:0;max-width:100%}.contact-form textarea{resize:vertical}.contact-form .btn{width:100%}
+@media(max-width:1000px){.contact-grid{grid-template-columns:1fr}.contact-form .form-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.contact-form .form-row{grid-template-columns:1fr}}
+
 /* Meem Tarbiya 60–30–10 brand palette */
 header .brand-name{color:#fff}.light-eye{color:var(--gold)}.page-hero .eyebrow,.eyebrow:not(.light-eye),.category,.resource-card>span,.job small,.next-article small{color:var(--gold-ink)}.btn.primary{background:var(--green)}.btn.primary:hover{background:var(--blue)}.btn.outline:hover,.text-link:hover{color:var(--blue);border-color:var(--blue)}.path-card.gold{background:var(--gold)}
 @media(max-width:900px){.nav nav{background:var(--green)!important}.nav nav>a{color:rgba(255,255,255,.88)}.nav nav>a:hover,.nav nav>a.active{color:#fff}.mobile-nav-label{color:var(--gold)!important}}
