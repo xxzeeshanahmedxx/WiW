@@ -1,8 +1,11 @@
 /* Unified internal-page signature banner */
-.page-hero{padding:72px 0 66px;background:#173f3c;text-align:center}
+.page-hero{padding:72px 0 66px;background:linear-gradient(180deg,#fff 0%,#f8f6f2 100%);color:var(--ink);text-align:center;border-bottom:1px solid var(--line)}
+.page-hero:after{content:'';position:absolute;left:50%;bottom:0;width:84px;height:3px;transform:translateX(-50%);background:var(--gold);border-radius:3px 3px 0 0}
+.page-hero .eyebrow{color:var(--gold-ink)}
+.page-hero .pattern:before,.page-hero .pattern:after{border-color:rgba(14,72,88,.08)}
 .page-hero .container{max-width:1160px;display:flex;flex-direction:column;align-items:center}
 .page-hero .container>h1{width:min(820px,100%);height:104px;margin:0 auto 14px;font-size:48px;line-height:1.08;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
-.page-hero .container>p{width:min(660px,100%);height:46px;margin:0 auto;color:#bfd2ce;font-size:15px;line-height:1.55;text-align:center;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.page-hero .container>p{width:min(660px,100%);height:46px;margin:0 auto;color:var(--text);font-size:15px;line-height:1.55;text-align:center;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .page-hero .pattern:before{width:330px;height:330px;top:-230px;left:auto;right:13%}
 .page-hero .pattern:after{width:250px;height:250px;right:-90px;bottom:-170px}
 .article-body{margin-top:0;padding-top:55px}
