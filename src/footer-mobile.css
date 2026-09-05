@@ -1,0 +1,48 @@
+/* Compact mobile footer: brand and contact span both columns; link groups sit side by side. */
+@media (max-width: 600px) {
+  footer { padding-top: 34px; }
+
+  .footer-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 18px;
+    row-gap: 24px;
+    padding-bottom: 25px;
+  }
+
+  .footer-grid > .foot-brand,
+  .footer-grid > div:nth-child(4) {
+    grid-column: 1 / -1;
+  }
+
+  .foot-brand > p {
+    max-width: 100%;
+    margin: 12px 0;
+    font-size: 11px;
+    line-height: 1.55;
+  }
+
+  .footer-grid h4 {
+    margin: 0 0 10px;
+    font-size: 12px;
+  }
+
+  .footer-grid > div:not(:first-child) > a {
+    margin: 7px 0;
+    font-size: 10.5px;
+    line-height: 1.4;
+  }
+
+  .footer-grid .contact {
+    margin: 7px 0;
+    font-size: 10.5px;
+  }
+
+  .socials { margin-top: 12px; }
+
+  .copyright {
+    padding: 14px 0;
+    gap: 5px;
+    font-size: 9px;
+    line-height: 1.5;
+  }
+}

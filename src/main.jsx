@@ -9,6 +9,7 @@ import './signature-system.css';
 import './spacing-system.css';
 import './carousel.css';
 import './improvements.css';
+import './footer-mobile.css';
 import logo from './assets/meem-logo.webp';
 import homeHeroDesktop from './assets/home-hero-desktop.webp';
 import homeHeroMobile from './assets/home-hero-mobile.webp';
