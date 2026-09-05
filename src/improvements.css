@@ -1,3 +1,6 @@
+/* Responsive homepage banner supplied for each screen size */
+.home-banner,.home-banner picture{display:block;width:100%;line-height:0}.home-banner img{display:block;width:100%;height:auto}
+
 /* Comfortable page gutters and image-free course panels */
 @media(min-width:901px){.container{width:min(1180px,calc(100% - 80px))}.carousel-track{padding-left:8px;padding-right:8px}}
 @media(min-width:601px) and (max-width:900px){.container{width:calc(100% - 56px)}}

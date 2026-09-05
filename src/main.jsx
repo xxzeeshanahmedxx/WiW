@@ -1,6 +1,6 @@
 import React, {useEffect, useMemo, useState} from 'react';
 import {createRoot} from 'react-dom/client';
-import {ArrowRight, BookOpen, Brain, Check, ChevronRight, Clock, Facebook, Globe2, GraduationCap, Heart, Instagram, Languages, Linkedin, Mail, MapPin, Menu, Monitor, Phone, Search, Sparkles, Star, Users, Wifi, X, Youtube} from 'lucide-react';
+import {ArrowRight, BookOpen, Brain, Check, ChevronRight, Clock, Facebook, Globe2, GraduationCap, Heart, Instagram, Languages, Linkedin, Mail, MapPin, Menu, Monitor, Phone, Search, Users, Wifi, X, Youtube} from 'lucide-react';
 import './styles.css';
 import './expansion.css';
 import './mobile-polish.css';
@@ -10,6 +10,8 @@ import './spacing-system.css';
 import './carousel.css';
 import './improvements.css';
 import logo from './assets/logo.png';
+import homeHeroDesktop from './assets/home-hero-desktop.jpg';
+import homeHeroMobile from './assets/home-hero-mobile.jpg';
 import hero from './assets/hero.jpg';
 import mission from './assets/mission.jpg';
 import why from './assets/why.jpg';
@@ -151,7 +153,7 @@ function CourseCarousel(){const groups=[
 ];return <div className="course-carousels">{groups.map(group=><section className="carousel-group" key={group.title}><div className="carousel-heading"><h3>{group.title}</h3><Link to="/courses">View all <ArrowRight/></Link></div><div className="carousel-track" tabIndex="0" aria-label={`${group.title} course carousel`}>{group.items.map(c=><div className="carousel-slide" key={c.id}><CourseCard course={c} compact/></div>)}</div></section>)}</div>}
 
 function Home(){return <main>
- <section className="hero"><div className="hero-orb one"></div><div className="hero-orb two"></div><div className="container hero-grid"><div className="hero-copy"><span className="eyebrow"><Sparkles size={15}/> Welcome to Meem Tarbiya</span><h1>Learn with faith. <em>Grow with confidence.</em></h1><p>The online learning home of Meem Academy—bringing Quran, Seerah, Arabic, school subjects and future-ready skills to every family.</p><div className="hero-actions"><Link to="/courses" className="btn primary">Explore courses <ArrowRight/></Link><Link to="/about-us" className="btn ghost">Discover our mission</Link></div><div className="trust"><div className="avatars"><span>MA</span><span>AZ</span><span>SF</span></div><div><b>Learn with teachers who care</b><small>Meem Academy · Lahore and online</small></div></div></div><div className="hero-visual"><div className="hero-collage"><div className="image-frame"><img src={hero}/></div><div className="collage-small cs-one"><img src={seerah}/></div><div className="collage-small cs-two"><img src={kids}/></div></div></div></div></section>
+ <section className="home-banner"><picture><source media="(max-width: 600px)" srcSet={homeHeroMobile}/><img src={homeHeroDesktop} alt="Meem Tarbiya"/></picture></section>
  <section className="stats"><div className="container stats-grid"><div><strong>500<span>+</span></strong><small>Active learners</small></div><div><strong>20<span>+</span></strong><small>Expert instructors</small></div><div><strong>18</strong><small>Purposeful courses</small></div><div><strong>95<span>%</span></strong><small>Student success</small></div></div></section>
  <section className="section"><div className="container"><SectionHead center eyebrow="18 courses · 3 paths" title="Find Your Course"/><CourseCarousel/></div></section>
  <section className="section sage"><div className="container mission-grid"><div className="mission-img"><img src={mission}/></div><div><SectionHead eyebrow="Our approach" title="Rooted in guidance. Ready for the world."/><p className="lead">We believe every learner carries a divine potential—to think clearly, act righteously and live purposefully.</p><div className="pillars"><div><span><img src={philosophy}/></span><div><h4>The Philosophy</h4><p>Every learner carries the potential to think clearly, act righteously and live purposefully.</p></div></div><div><span><img src={craft}/></span><div><h4>The Craft</h4><p>Authentic teaching, interactive learning and guided reflection turn knowledge into growth.</p></div></div><div><span><img src={influence}/></span><div><h4>The Influence</h4><p>The outcome is visible in the good learners carry into their homes, communities and world.</p></div></div></div><Link to="/about-us" className="text-link">Learn about our philosophy <ArrowRight/></Link></div></div></section>
