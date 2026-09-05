@@ -143,9 +143,9 @@ function CourseVisual({course}){const tone=course.category.toLowerCase().replace
 function CourseCard({course,compact=false}){return <article className={'course-card '+(compact?'compact-course-card':'')}><Link to={'/course-details/'+course.id} className="course-img"><CourseVisual course={course}/></Link><div className="course-body">{compact?<div className={'status-text '+(course.open?'open':'closed')}>{course.open?'Open':'Closed'}</div>:<div className="card-kicker"><span className="category">{displayCategory(course.category)}</span><span className={'status-text '+(course.open?'open':'closed')}>{course.open?'Open':'Closed'}</span></div>}<Link to={'/course-details/'+course.id}><h3>{course.title}</h3></Link>{course.age&&<div className="age-label">{course.age}</div>}{!compact&&<p>{course.description}</p>}<div className="course-meta">{!compact&&<><span>{course.level}</span><span><Clock/> {course.lesson}</span></>}<span><BookOpen/> {course.duration}</span><span><Globe2/> {course.language}</span></div><div className="course-foot"><div><small>Monthly from</small><strong><Money value={course.price}/></strong></div><Link to={'/course-details/'+course.id} className="card-action">{course.open?'View course':'View details'} <ArrowRight/></Link></div></div></article>}
 
 function CourseCarousel(){const groups=[
- {title:'Featured',tone:'featured',items:courses.filter(c=>c.category!=='STEM'&&c.category!=='Arabic Language')},
- {title:'Science & Technology',tone:'stem',items:courses.filter(c=>c.category==='STEM')},
- {title:'Arabic Language',tone:'arabic',items:courses.filter(c=>c.category==='Arabic Language')}
+ {title:'Featured',tone:'carousel-featured',items:courses.filter(c=>c.category!=='STEM'&&c.category!=='Arabic Language')},
+ {title:'Science & Technology',tone:'carousel-stem',items:courses.filter(c=>c.category==='STEM')},
+ {title:'Arabic Language',tone:'carousel-arabic',items:courses.filter(c=>c.category==='Arabic Language')}
 ];return <div className="course-carousels">{groups.map(group=><section className={'carousel-group '+group.tone} key={group.title}><div className="carousel-heading"><h3>{group.title}</h3><Link to="/courses">View all <ArrowRight/></Link></div><div className="carousel-track" tabIndex="0" aria-label={`${group.title} course carousel`}>{group.items.map(c=><div className="carousel-slide" key={c.id}><CourseCard course={c} compact/></div>)}</div></section>)}</div>}
 
 function Home(){return <main>
