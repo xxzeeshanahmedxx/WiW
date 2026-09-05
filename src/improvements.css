@@ -1,3 +1,6 @@
+/* Complete editorial type hierarchy */
+.lead,.section-head>p,.page-hero p,.article-body article p.intro{font-family:'Lora',Georgia,serif;font-weight:500}.article-quote{font-family:'Lora',Georgia,serif!important;font-style:italic;font-weight:500}.eyebrow,.category,.status-text,.btn,nav a{font-weight:700}small,.course-meta,.card-action,.result-count{font-family:'Figtree',Arial,sans-serif;font-weight:500}
+
 /* Editorial capitalization: display headings stay natural; concise labels may use caps */
 h1,h2,h3,h4,h5,h6{text-transform:none!important}.eyebrow,.category,.status-text,.course-facts small,.enroll-top>small,.group-plan>small,.resource-card>span,.job small,.next-article>small,.legal-layout article>section>span,.result-count{text-transform:uppercase!important;letter-spacing:.1em}
 
