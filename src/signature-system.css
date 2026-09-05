@@ -3,8 +3,6 @@
 .page-hero .container{max-width:1160px;display:flex;flex-direction:column;align-items:center}
 .page-hero .container>h1{width:min(820px,100%);height:104px;margin:0 auto 14px;font-size:48px;line-height:1.08;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
 .page-hero .container>p{width:min(660px,100%);height:46px;margin:0 auto;color:#bfd2ce;font-size:15px;line-height:1.55;text-align:center;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.page-hero-signature{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:24px;color:#8faca6;font-size:9px;text-transform:uppercase;letter-spacing:.13em;font-weight:700}
-.page-hero-signature i{width:24px;height:1px;background:#cda35e}
 .page-hero .pattern:before{width:330px;height:330px;top:-230px;left:auto;right:13%}
 .page-hero .pattern:after{width:250px;height:250px;right:-90px;bottom:-170px}
 .article-body{margin-top:0;padding-top:55px}
@@ -15,8 +13,6 @@
  .page-hero .container>h1{width:100%;height:65px;font-size:30px;line-height:1.08;margin:0 auto 9px;text-align:center}
  .page-hero .container>p{width:95%;height:36px;font-size:12px;line-height:1.5;text-align:center}
  .page-hero .eyebrow{font-size:9px;margin:0 auto 9px;text-align:center}
- .page-hero-signature{justify-content:center;margin-top:16px;font-size:7px;gap:7px;letter-spacing:.1em}
- .page-hero-signature i{width:14px}
  .page-hero .pattern:before{width:180px;height:180px;right:-80px;top:-100px}
  .faculty-profile-body .profile-grid h2{font-size:27px}
  .article-body{padding-top:34px}
