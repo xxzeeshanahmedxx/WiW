@@ -1,0 +1,477 @@
+/* Final mobile and tablet resilience layer. Desktop styles remain unchanged. */
+@media (max-width: 900px) {
+  html,
+  body,
+  #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .container {
+    width: min(calc(100% - 40px), 1160px);
+  }
+
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  a,
+  b,
+  span {
+    overflow-wrap: anywhere;
+  }
+
+  .nav nav.open {
+    max-height: calc(100dvh - 58px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .content-grid,
+  .profile-grid,
+  .service-grid,
+  .sponsor-form-grid,
+  .job-detail,
+  .checkout-grid,
+  .contact-grid,
+  .application-grid,
+  .split {
+    min-width: 0;
+  }
+
+  .content-grid > *,
+  .profile-grid > *,
+  .service-grid > *,
+  .sponsor-form-grid > *,
+  .job-detail > *,
+  .checkout-grid > *,
+  .contact-grid > *,
+  .application-grid > *,
+  .split > * {
+    min-width: 0;
+  }
+
+  .apply-form,
+  .enroll-card,
+  .price-card,
+  .legal-layout article,
+  .legal-layout aside {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .carousel-track,
+  .filters,
+  .select-tools {
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-inline: contain;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: min(calc(100% - 28px), 1160px);
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+
+  button,
+  select,
+  input:not([type='checkbox']):not([type='radio']),
+  .btn {
+    min-height: 44px;
+  }
+
+  textarea {
+    min-height: 120px;
+  }
+
+  .section {
+    padding-block: 38px;
+  }
+
+  .page-hero {
+    padding-block: 25px 23px;
+  }
+
+  .page-hero .container > h1 {
+    font-size: clamp(27px, 8vw, 31px);
+  }
+
+  .page-hero .container > p {
+    width: 100%;
+    max-width: 34rem;
+  }
+
+  .section-head h2,
+  .journey-heading h2 {
+    font-size: clamp(25px, 7.5vw, 29px);
+  }
+
+  .section-head p,
+  .lead,
+  .prose p {
+    line-height: 1.65;
+  }
+
+  /* Header and menu */
+  .nav nav,
+  .nav nav.open {
+    left: 8px;
+    right: 8px;
+    width: auto;
+    border-radius: 0 0 14px 14px;
+  }
+
+  .nav nav > a,
+  .mobile-currency {
+    min-height: 42px;
+  }
+
+  /* Homepage */
+  .home-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stats-grid div {
+    min-width: 0;
+  }
+
+  .mission-actions,
+  .center-button {
+    width: 100%;
+  }
+
+  .path-grid,
+  .about-principles,
+  .values-grid,
+  .editorial-links,
+  .editorial-sections,
+  .coaching-grid,
+  .path-process,
+  .pricing-explain,
+  .admissions-steps,
+  .topic-list,
+  .resource-grid,
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sponsor-numbers,
+  .profile-facts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .sponsor-art,
+  .sponsor-art img {
+    width: 100%;
+    height: auto !important;
+  }
+
+  /* Courses */
+  .course-carousels .carousel-heading {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .course-carousels .carousel-heading h3 {
+    min-width: 0;
+    font-size: 18px;
+  }
+
+  .course-carousels .carousel-heading > a {
+    flex: 0 0 auto;
+    min-height: 40px;
+  }
+
+  .carousel-track {
+    scroll-padding-inline: 2px;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-grid .course-card,
+  .carousel-slide .course-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .course-meta span {
+    white-space: normal;
+  }
+
+  .course-foot {
+    gap: 10px;
+  }
+
+  .course-foot > div,
+  .card-action {
+    min-width: 0;
+  }
+
+  .course-facts > .container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .course-facts .container > div {
+    min-width: 0;
+  }
+
+  .module-accordion summary {
+    min-height: 52px;
+    gap: 7px;
+  }
+
+  .requirements {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-sponsor {
+    padding: 24px 20px 0;
+  }
+
+  .save-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Forms and catalogue controls */
+  .apply-form {
+    padding: 21px 17px;
+  }
+
+  .apply-form label {
+    font-size: 11px;
+  }
+
+  .apply-form input,
+  .apply-form select,
+  .apply-form textarea,
+  .newsletter input,
+  .search input {
+    width: 100%;
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .form-row,
+  .contact-form .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-tools.sheet-open {
+    max-height: min(78dvh, 680px);
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  .select-tools {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filterbar,
+  .insight-heading,
+  .newsletter > .container,
+  .cta-light {
+    align-items: stretch;
+  }
+
+  .filterbar,
+  .insight-heading {
+    gap: 14px;
+  }
+
+  .filters {
+    display: flex;
+    max-width: 100%;
+    padding-bottom: 5px;
+  }
+
+  .filters button {
+    flex: 0 0 auto;
+    min-height: 40px;
+  }
+
+  .newsletter form {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .newsletter form button {
+    width: 100%;
+  }
+
+  /* Faculty, articles and profile pages */
+  .faculty-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .faculty-card,
+  .faculty-card > div,
+  .blog-card,
+  .resource-card {
+    min-width: 0;
+  }
+
+  .profile-photo {
+    width: min(100%, 360px);
+    margin-inline: auto;
+  }
+
+  .article-cover-wrap,
+  .article-cover {
+    width: 100%;
+  }
+
+  .article-body article {
+    max-width: 100%;
+  }
+
+  .next-article a {
+    gap: 12px;
+  }
+
+  /* Contact, guides and legal pages */
+  .contact-cards,
+  .sitemap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-cards a,
+  .contact-cards a span,
+  .office > div {
+    min-width: 0;
+  }
+
+  .contact-cards b,
+  .contact-cards small,
+  .office p,
+  footer .contact {
+    overflow-wrap: anywhere;
+  }
+
+  .legal-layout article > section {
+    grid-template-columns: 28px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .guide-steps > div {
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .guide-cta,
+  .admissions-cta {
+    border-radius: 11px;
+  }
+
+  .not-found {
+    min-height: 58vh;
+    padding: 30px 16px;
+  }
+
+  .not-found > div {
+    width: 100%;
+  }
+
+  /* Keep fixed mobile controls clear of device safe areas. */
+  .mobile-action-bar {
+    bottom: max(9px, env(safe-area-inset-bottom));
+  }
+
+  footer {
+    padding-bottom: calc(68px + env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: calc(100% - 24px);
+  }
+
+  .nav nav,
+  .nav nav.open {
+    grid-template-columns: 1fr;
+  }
+
+  .mobile-nav-label,
+  .mobile-currency,
+  .nav .nav-cta {
+    grid-column: 1;
+  }
+
+  .faculty-grid,
+  .select-tools {
+    grid-template-columns: 1fr;
+  }
+
+  .faculty-photo {
+    height: 250px;
+  }
+
+  .course-carousels .carousel-slide {
+    flex-basis: 91%;
+  }
+
+  .stats-grid strong {
+    font-size: 21px;
+  }
+
+  .sponsor-numbers,
+  .profile-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .course-foot {
+    padding-inline: 15px;
+  }
+
+  .card-action {
+    font-size: 9px;
+  }
+
+  .copyright > span:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 6px;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .course-card:hover,
+  .faculty-card:hover,
+  .blog-card:hover,
+  .resource-card:hover,
+  .coach-card:hover,
+  .editorial-links > a:hover,
+  .journey-steps > a:hover {
+    transform: none;
+  }
+}
