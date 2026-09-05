@@ -2,7 +2,7 @@
 body *{text-transform:none!important}
 
 /* Unified one-line brand wordmark */
-.brand .brand-name,.auth-logo .brand-name{display:inline;white-space:nowrap;font-family:'Cinzel Decorative',Georgia,serif;font-size:15px;font-weight:700;line-height:1;letter-spacing:.015em}.brand.light .brand-name{color:#fff}.auth-logo .brand-name{font-size:14px}
+.brand .brand-name,.auth-logo .brand-name{display:inline;white-space:nowrap;font-family:'Figtree',Arial,sans-serif;font-size:15px;font-weight:800;line-height:1;letter-spacing:.015em}.brand.light .brand-name{color:#fff}.auth-logo .brand-name{font-size:14px}
 @media(max-width:600px){.brand .brand-name{font-size:12px}}
 
 /* Blog cover branding */
