@@ -1,3 +1,7 @@
+/* Meem Tarbiya 60–30–10 brand palette */
+header .brand-name{color:#fff}.light-eye,.page-hero .eyebrow{color:var(--gold)}.eyebrow:not(.light-eye),.category,.resource-card>span,.job small,.next-article small{color:var(--gold-ink)}.btn.primary{background:var(--green)}.btn.primary:hover{background:var(--blue)}.btn.outline:hover,.text-link:hover{color:var(--blue);border-color:var(--blue)}.path-card.gold{background:var(--gold)}
+@media(max-width:900px){.nav nav{background:var(--green)!important}.nav nav>a{color:rgba(255,255,255,.88)}.nav nav>a:hover,.nav nav>a.active{color:#fff}.mobile-nav-label{color:var(--gold)!important}}
+
 /* Complete editorial type hierarchy */
 .lead,.section-head>p,.page-hero p,.article-body article p.intro{font-family:'Lora',Georgia,serif;font-weight:500}.article-quote{font-family:'Lora',Georgia,serif!important;font-style:italic;font-weight:500}.eyebrow,.category,.status-text,.btn,nav a{font-weight:700}small,.course-meta,.card-action,.result-count{font-family:'Figtree',Arial,sans-serif;font-weight:500}
 
