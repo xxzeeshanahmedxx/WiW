@@ -4,6 +4,7 @@ import {ArrowRight, BookOpen, Brain, Check, ChevronRight, Clock, Facebook, Globe
 import './styles.css';
 import './expansion.css';
 import './mobile-polish.css';
+import './plain-image-overrides.css';
 import logo from './assets/logo.png';
 import hero from './assets/hero.jpg';
 import mission from './assets/mission.jpg';

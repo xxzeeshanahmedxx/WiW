@@ -1,0 +1,7 @@
+/* Content photography intentionally replaced with lightweight solid green panels. */
+.image-page-hero,.teach-hero{background:#dcebe3;color:var(--ink)}
+.image-page-hero>div:first-of-type,.teach-hero .overlay{background:transparent}
+.image-page-hero p,.teach-hero p{color:#4d6560}
+.image-page-hero .light-eye,.teach-hero .light-eye{color:#98713a}
+.story-photo:after{display:none}
+.story-photo span{color:var(--ink);background:rgba(255,255,255,.72);padding:6px 9px;border-radius:5px;left:10px;bottom:10px}
