@@ -144,7 +144,7 @@
     width: 100%;
   }
 
-  .path-grid,.about-principles,.values-grid,.editorial-links,.coaching-grid,.admissions-steps,.topic-list,.blog-grid {
+  .about-principles,.values-grid,.editorial-links,.coaching-grid,.admissions-steps,.topic-list,.blog-grid {
     grid-template-columns: 1fr;
   }
 

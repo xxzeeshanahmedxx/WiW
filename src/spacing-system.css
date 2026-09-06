@@ -18,9 +18,7 @@
 .mission-img>img,.rounded-img{height:470px}
 .pillars{margin:20px 0}
 .pillars>div{margin:16px 0}
-.path-grid,.benefit-grid,.values-grid{gap:16px}
-.path-card{padding:30px 27px;min-height:270px}
-.path-card h3{margin:30px 0 9px}
+.benefit-grid,.values-grid{gap:16px}
 .visual-story{padding:72px 0}
 .story-grid{grid-template-rows:220px 220px;gap:12px}
 .story-copy h2{margin-bottom:12px}
@@ -80,8 +78,6 @@ footer{padding-top:56px}
  .mission-grid,.split,.content-grid,.application-grid,.contact-grid,.service-grid,.sponsor-form-grid{gap:25px}
  .mission-img>img,.rounded-img{height:270px}
  .quote{bottom:10px}
- .path-card{padding:23px;min-height:215px}
- .path-card h3{margin:22px 0 7px}
  .visual-story{padding:42px 0}
  .story-grid{grid-template-rows:auto repeat(4,150px);gap:8px}
  .sponsor-grid{gap:20px}
