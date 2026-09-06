@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/about-us</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/mission-and-vision</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/philosophy</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/teaching-method</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/impact</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/our-ecosystem</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/contact-us</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/courses</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/faculty</loc><changefreq>monthly</changefreq></url>
@@ -15,31 +10,22 @@
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/become-instructor</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/blog</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/admissions</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/fees-and-plans</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/sponsor-a-student</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/parent-guide</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/student-guide</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/online-learning-guide</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/faq</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/resources</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/jobs</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/terms</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/privacy-policy</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/accessibility</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/site-map</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/pathways/islamic-studies</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/pathways/quran</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/pathways/arabic-language</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/pathways/stem</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/pathways/school-subjects</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/pathways/life-skills</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/292</loc><changefreq>weekly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/291</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/223</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/221</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/208</loc><changefreq>weekly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/226</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/292</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/291</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/224</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/226</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/219</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/218</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/course-details/217</loc><changefreq>weekly</changefreq></url>
@@ -69,13 +55,4 @@
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/blog-details/6</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/blog-details/7</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/blog-details/8</loc><changefreq>weekly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/resources/online-learning-checklist</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/resources/reflection-habit</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/resources/arabic-starter-guide</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/resources/tarbiyah-at-home</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/resources/parent-course-guide</loc><changefreq>weekly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/resources/study-progress-planner</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/jobs/online-instructor</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/jobs/academic-coordinator</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://wiw.xxzeeshanahmedxx.workers.dev/jobs/student-support-associate</loc><changefreq>monthly</changefreq></url>
 </urlset>

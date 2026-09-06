@@ -36,7 +36,7 @@
 footer{padding-top:56px}
 .footer-grid{padding-bottom:42px;gap:42px}
 .detail-hero,.editorial-hero,.pathway-hero,.service-hero,.sponsor-page-hero,.guide-hero{padding:48px 0}
-.content-grid,.service-grid,.contact-grid,.application-grid,.sponsor-form-grid,.job-detail{gap:55px}
+.content-grid,.service-grid,.contact-grid,.application-grid,.sponsor-form-grid{gap:55px}
 .course-facts>.container{min-height:78px}
 .prose h3{margin-top:29px}
 .curriculum{margin-top:32px}
@@ -44,9 +44,6 @@ footer{padding-top:56px}
 .detail-sponsor{margin-top:36px}
 .profile-grid{gap:55px}
 .profile-photo{height:430px}
-.editorial-sections{gap:16px}
-.editorial-sections article{padding:22px}
-.editorial-sections h2{margin:20px 0 8px}
 .path-process{gap:35px}
 .path-process h3{margin:16px 0 7px}
 .topic-list{margin-bottom:38px}
@@ -56,16 +53,10 @@ footer{padding-top:56px}
 .blog-grid{gap:20px}
 .blog-card>div{padding:19px}
 .newsletter{padding:52px 0}
-.resource-grid{gap:16px}
-.resource-card{padding:25px;min-height:260px}
-.resource-card>span{margin-top:21px}
-.guide-steps>div{padding:19px 0}
-.guide-cta{margin-top:32px;padding:32px}
 .admissions-steps{gap:12px}
 .admissions-steps>div{padding:25px}
 .admissions-steps h2{margin:22px 0 8px}
 .admissions-cta{padding:38px;margin-top:25px}
-.price-card{padding:30px}
 .faculty-grid{gap:18px}
 .faculty-card>div:last-child{padding:16px}
 .faculty-photo{height:235px}
@@ -74,7 +65,7 @@ footer{padding-top:56px}
 .not-found{min-height:62vh;padding:45px}
 @media(max-width:900px){
  .section{padding:60px 0}
- .mission-grid,.split,.content-grid,.application-grid,.contact-grid,.service-grid,.sponsor-form-grid,.job-detail{gap:38px}
+ .mission-grid,.split,.content-grid,.application-grid,.contact-grid,.service-grid,.sponsor-form-grid{gap:38px}
  .story-grid{grid-template-rows:auto 205px 205px}
 }
 @media(max-width:600px){
@@ -87,8 +78,8 @@ footer{padding-top:56px}
  .section-head .eyebrow{margin-bottom:7px}
  .section-head h2{font-size:27px;margin-bottom:7px}
  .section-head p{font-size:12px;line-height:1.5}
- .course-grid,.faculty-grid,.blog-grid,.resource-grid,.coaching-grid{gap:12px}
- .mission-grid,.split,.content-grid,.application-grid,.contact-grid,.service-grid,.sponsor-form-grid,.job-detail{gap:25px}
+ .course-grid,.faculty-grid,.blog-grid,.coaching-grid{gap:12px}
+ .mission-grid,.split,.content-grid,.application-grid,.contact-grid,.service-grid,.sponsor-form-grid{gap:25px}
  .mission-img>img,.rounded-img{height:270px}
  .quote{bottom:10px}
  .path-card{padding:23px;min-height:215px}
@@ -113,12 +104,8 @@ footer{padding-top:56px}
  .article-cover{height:220px}
  .article-body article{padding:23px 0}
  .newsletter{padding:38px 0}
- .resource-card{padding:21px;min-height:230px}
- .guide-steps>div{padding:16px 0}
- .guide-cta{margin-top:24px;padding:25px}
  .admissions-steps>div{padding:21px}
  .admissions-cta{padding:28px 18px;margin-top:18px}
- .price-card{padding:24px}
  .catalog-tools{margin-bottom:10px}
  .filterbar{margin-bottom:19px}
  .not-found{padding:32px 18px}

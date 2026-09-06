@@ -35,35 +35,15 @@
     overscroll-behavior: contain;
   }
 
-  .content-grid,
-  .profile-grid,
-  .service-grid,
-  .sponsor-form-grid,
-  .job-detail,
-  .checkout-grid,
-  .contact-grid,
-  .application-grid,
-  .split {
+  .content-grid,.profile-grid,.service-grid,.sponsor-form-grid,.checkout-grid,.contact-grid,.application-grid,.split {
     min-width: 0;
   }
 
-  .content-grid > *,
-  .profile-grid > *,
-  .service-grid > *,
-  .sponsor-form-grid > *,
-  .job-detail > *,
-  .checkout-grid > *,
-  .contact-grid > *,
-  .application-grid > *,
-  .split > * {
+  .content-grid > *,.profile-grid > *,.service-grid > *,.sponsor-form-grid > *,.checkout-grid > *,.contact-grid > *,.application-grid > *,.split > * {
     min-width: 0;
   }
 
-  .apply-form,
-  .enroll-card,
-  .price-card,
-  .legal-layout article,
-  .legal-layout aside {
+  .apply-form,.enroll-card,.legal-layout article,.legal-layout aside {
     width: 100%;
     max-width: 100%;
   }
@@ -165,18 +145,7 @@
     width: 100%;
   }
 
-  .path-grid,
-  .about-principles,
-  .values-grid,
-  .editorial-links,
-  .editorial-sections,
-  .coaching-grid,
-  .path-process,
-  .pricing-explain,
-  .admissions-steps,
-  .topic-list,
-  .resource-grid,
-  .blog-grid {
+  .path-grid,.about-principles,.values-grid,.editorial-links,.coaching-grid,.path-process,.admissions-steps,.topic-list,.blog-grid {
     grid-template-columns: 1fr;
   }
 
@@ -294,10 +263,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .filterbar,
-  .insight-heading,
-  .newsletter > .container,
-  .cta-light {
+  .filterbar,.insight-heading,.newsletter > .container {
     align-items: stretch;
   }
 
@@ -333,10 +299,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .faculty-card,
-  .faculty-card > div,
-  .blog-card,
-  .resource-card {
+  .faculty-card,.faculty-card > div,.blog-card {
     min-width: 0;
   }
 
@@ -382,12 +345,6 @@
     gap: 10px;
   }
 
-  .guide-steps > div {
-    grid-template-columns: 40px minmax(0, 1fr);
-    gap: 12px;
-  }
-
-  .guide-cta,
   .admissions-cta {
     border-radius: 11px;
   }
@@ -465,13 +422,7 @@
 }
 
 @media (hover: none) and (pointer: coarse) {
-  .course-card:hover,
-  .faculty-card:hover,
-  .blog-card:hover,
-  .resource-card:hover,
-  .coach-card:hover,
-  .editorial-links > a:hover,
-  .journey-steps > a:hover {
+  .course-card:hover,.faculty-card:hover,.blog-card:hover,.coach-card:hover,.editorial-links > a:hover,.journey-steps > a:hover {
     transform: none;
   }
 }
@@ -483,12 +434,7 @@
 }
 
 /* Noor Gold remains the accent; this darker companion is used for small text on light surfaces. */
-.value>span,.faculty-card small,.module>span,.module-accordion summary>span,
-.journey-steps span,.coach-heading small,.topic-list span,.admissions-steps span,
-.price-card>small,.legal-layout article>section>span,.book-list>div span,
-.editorial-links span,.editorial-sections article>span,.path-process span,
-.profile-grid>div:last-child>h3,.people-row small,.next-article small,
-.resource-card>span,.job small,.category{
+.value>span,.faculty-card small,.module>span,.module-accordion summary>span,.journey-steps span,.coach-heading small,.topic-list span,.admissions-steps span,.legal-layout article>section>span,.book-list>div span,.editorial-links span,.path-process span,.profile-grid>div:last-child>h3,.people-row small,.next-article small,.category{
   color:var(--gold-ink)!important;
 }
 
@@ -522,5 +468,7 @@
   .menu{color:var(--green)!important}
 }
 .course-facts small,.module-accordion summary small{color:#526764!important}
-.price-card.best>small{color:var(--gold)!important}
 @media(max-width:900px){.mobile-action-bar>a:not(.primary){color:#526764!important}}
+
+/* Account pages no longer reserve half the screen for a decorative placeholder. */
+.auth-page{grid-template-columns:minmax(0,1fr)}

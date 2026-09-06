@@ -12,14 +12,14 @@
 @media(max-width:600px){.contact-form .form-row{grid-template-columns:1fr}}
 
 /* Meem Tarbiya 60–30–10 brand palette */
-header .brand-name{color:#fff}.light-eye{color:var(--gold)}.page-hero .eyebrow,.eyebrow:not(.light-eye),.category,.resource-card>span,.job small,.next-article small{color:var(--gold-ink)}.btn.primary{background:var(--green)}.btn.primary:hover{background:var(--blue)}.btn.outline:hover,.text-link:hover{color:var(--blue);border-color:var(--blue)}.path-card.gold{background:var(--gold)}
+header .brand-name{color:#fff}.light-eye{color:var(--gold)}.page-hero .eyebrow,.eyebrow:not(.light-eye),.category,.next-article small{color:var(--gold-ink)}.btn.primary{background:var(--green)}.btn.primary:hover{background:var(--blue)}.btn.outline:hover,.text-link:hover{color:var(--blue);border-color:var(--blue)}.path-card.gold{background:var(--gold)}
 @media(max-width:900px){.nav nav{background:var(--green)!important}.nav nav>a{color:rgba(255,255,255,.88)}.nav nav>a:hover,.nav nav>a.active{color:#fff}.mobile-nav-label{color:var(--gold)!important}}
 
 /* Complete editorial type hierarchy */
 .lead,.section-head>p,.page-hero p,.article-body article p.intro{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600}.article-quote{font-family:'Cormorant Garamond',Georgia,serif!important;font-style:italic;font-weight:600}.eyebrow,.category,.status-text,.btn,nav a{font-weight:700}small,.course-meta,.card-action,.result-count{font-family:'Poppins',Arial,sans-serif;font-weight:600}
 
 /* Editorial capitalization: display headings stay natural; concise labels may use caps */
-h1,h2,h3,h4,h5,h6{text-transform:none!important}.eyebrow,.category,.status-text,.course-facts small,.enroll-top>small,.group-plan>small,.resource-card>span,.job small,.next-article>small,.legal-layout article>section>span,.result-count{text-transform:uppercase!important;letter-spacing:.1em}
+h1,h2,h3,h4,h5,h6{text-transform:none!important}.eyebrow,.category,.status-text,.course-facts small,.enroll-top>small,.group-plan>small,.next-article>small,.legal-layout article>section>span,.result-count{text-transform:uppercase!important;letter-spacing:.1em}
 
 /* Unified one-line brand wordmark */
 .brand .brand-name,.auth-logo .brand-name{display:inline;white-space:nowrap;font-family:'Poppins',Arial,sans-serif;font-size:15px;font-weight:800;line-height:1;letter-spacing:.015em}.brand.light .brand-name{color:#fff}.auth-logo .brand-name{font-size:14px}
