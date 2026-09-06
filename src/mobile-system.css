@@ -100,8 +100,7 @@
     max-width: 34rem;
   }
 
-  .section-head h2,
-  .journey-heading h2 {
+  .section-head h2 {
     font-size: clamp(25px, 7.5vw, 29px);
   }
 
@@ -145,7 +144,7 @@
     width: 100%;
   }
 
-  .path-grid,.about-principles,.values-grid,.editorial-links,.coaching-grid,.path-process,.admissions-steps,.topic-list,.blog-grid {
+  .path-grid,.about-principles,.values-grid,.editorial-links,.coaching-grid,.admissions-steps,.topic-list,.blog-grid {
     grid-template-columns: 1fr;
   }
 
@@ -422,7 +421,7 @@
 }
 
 @media (hover: none) and (pointer: coarse) {
-  .course-card:hover,.faculty-card:hover,.blog-card:hover,.coach-card:hover,.editorial-links > a:hover,.journey-steps > a:hover {
+  .course-card:hover,.faculty-card:hover,.blog-card:hover,.coach-card:hover,.editorial-links > a:hover {
     transform: none;
   }
 }
@@ -434,7 +433,7 @@
 }
 
 /* Noor Gold remains the accent; this darker companion is used for small text on light surfaces. */
-.value>span,.faculty-card small,.module>span,.module-accordion summary>span,.journey-steps span,.coach-heading small,.topic-list span,.admissions-steps span,.legal-layout article>section>span,.book-list>div span,.editorial-links span,.path-process span,.profile-grid>div:last-child>h3,.people-row small,.next-article small,.category{
+.value>span,.faculty-card small,.module>span,.module-accordion summary>span,.coach-heading small,.topic-list span,.admissions-steps span,.legal-layout article>section>span,.book-list>div span,.editorial-links span,.profile-grid>div:last-child>h3,.people-row small,.next-article small,.category{
   color:var(--gold-ink)!important;
 }
 
