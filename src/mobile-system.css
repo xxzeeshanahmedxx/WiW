@@ -475,3 +475,52 @@
     transform: none;
   }
 }
+
+/* Accessibility: preserve the brand palette while guaranteeing readable text. */
+:root{
+  --teal:#0E4858;
+  --warm:#F8F6F2;
+}
+
+/* Noor Gold remains the accent; this darker companion is used for small text on light surfaces. */
+.value>span,.faculty-card small,.module>span,.module-accordion summary>span,
+.journey-steps span,.coach-heading small,.topic-list span,.admissions-steps span,
+.price-card>small,.legal-layout article>section>span,.book-list>div span,
+.editorial-links span,.editorial-sections article>span,.path-process span,
+.profile-grid>div:last-child>h3,.people-row small,.next-article small,
+.resource-card>span,.job small,.category{
+  color:var(--gold-ink)!important;
+}
+
+.course-meta{color:#526764!important}
+.course-foot small,.enroll-top>small,.group-plan>small,.help>div>small,
+.blog-card article>div>small,.blog-card>div>small,.contact-cards small,
+.profile-facts small{color:#526764!important}
+.result-count{color:#526764!important}
+.copyright,.copyright a{color:#cbdadd!important}
+.teach-home .light-eye{color:var(--gold)!important}
+
+@media(max-width:900px){
+  .nav nav,.nav nav.open{
+    background:#fff!important;
+    border-top:1px solid var(--line);
+  }
+  .nav nav>a:not(.nav-cta){
+    color:var(--ink)!important;
+    background:#f7f9f7;
+  }
+  .nav nav>a:not(.nav-cta):hover,.nav nav>a:not(.nav-cta).active{
+    color:var(--green)!important;
+    background:#eef4f4;
+  }
+  .nav .nav-cta,.nav .nav-cta:hover,.nav .nav-cta.active{
+    color:#fff!important;
+    background:var(--green)!important;
+  }
+  .mobile-nav-label{color:var(--gold-ink)!important}
+  .mobile-currency{color:var(--ink)!important}
+  .menu{color:var(--green)!important}
+}
+.course-facts small,.module-accordion summary small{color:#526764!important}
+.price-card.best>small{color:var(--gold)!important}
+@media(max-width:900px){.mobile-action-bar>a:not(.primary){color:#526764!important}}
